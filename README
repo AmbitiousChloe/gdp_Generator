@@ -1,0 +1,20 @@
+World Bank GDP Data Fetcher
+
+Introduction
+This program fetches and displays the GDP of various countries as a percentage of the world's GDP. The data is sourced directly from the World Bank API and can be displayed for a range of years specified by the user. Result is sorted from highest to lowest based on last year in the range provided; countries with the highest last year GDP at the top.
+
+Setup
+
+1. Navigate to the directory: target
+
+2. Modify the permissions for the gdp file to make it executable: chmod 777 gdp
+
+3. Execute the gdp script by specifying the range of years:
+
+./gdp --from-year [start-year] --to-year [end-year]
+
+
+
+Assumptions
+The data from the World Bank API is accurate and up-to-date.
+The --from-year cannot be equal to --to-year.
