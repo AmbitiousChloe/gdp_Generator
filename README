@@ -4,7 +4,7 @@ Introduction
 
 This is a personal project I undertook over the weekend to both revisit Java and OOP concepts and to satisfy my curiosity about the World Bank API.
 
-This program fetches and displays the GDP of various countries as a percentage of the world's GDP. The data is sourced directly from the World Bank API and can be displayed for a range of years specified by the user. Result is sorted from highest to lowest based on last year in the range provided; countries with the highest last year GDP at the top.
+This program fetches and displays the GDP of various countries as a percentage of the world's GDP. The data is sourced directly from the World Bank API and can be displayed for a range of years specified by the user. The result is sorted from highest to lowest based on last year in the range provided; countries with the highest last year GDP at the top.
 
 
 Setup
